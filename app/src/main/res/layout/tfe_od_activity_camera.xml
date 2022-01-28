@@ -42,7 +42,19 @@
             android:layout_alignParentTop="true"
             android:background="@color/tfe_semi_transparent">
 
+            <TextView
+                android:background="@android:color/black"
+                android:textColor="@android:color/holo_blue_bright"
+                android:id="@+id/textView"
+                android:textAlignment="center"
+                android:textFontWeight="800"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ahmetcan.com.tr" />
+
             <ImageView
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/tfl2_logo" />
